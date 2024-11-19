@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RB│Dev</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsividade.css">
+    <!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <!--Botão voltar ao topo-->
+    <div id="backToTop" class="fixed-button">
+        <i class="bi bi-chevron-up"></i>
+    </div>
+
+    <!--Container Geral-->
+    <div class="container">
+
+        <!--Header-->
+        <header class="header">
+            <div class="logo">
+                <img src="./img/logo-header.png" alt="">
+            </div>
+            <div class="menu">
+                <label class="hamburger">
+                    <input type="checkbox" id="menuToggle">
+                    <svg viewBox="0 0 32 32">
+                        <path class="line line-top-bottom"
+                            d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22">
+                        </path>
+                        <path class="line" d="M7 16 27 16"></path>
+                    </svg>
+                </label>
+            </div>
+            <div class="menu-aberto">
+                <nav class="nav-menu">
+                    <a href="#inicio">INÍCIO</a>
+                    <a href="#sobre">SOBRE</a>
+                    <a href="#servicos">SERVIÇOS</a>
+                    <a href="#projetos">PROJETOS</a>
+                    <a href="#contato">CONTATO</a>
+                </nav>
+            </div>
+        </header>
+        <!--Fim Header-->
+
+        <!--Início-->
+        <main id="inicio" class="inicio">
+            <div class="container-inicio">
+                <div class="conteudo-inicio" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="titulo-inicio">
+                        <h1>Bem-vindo!</h1>
+                        <h1 class="destaque-inicio">Desenvolvedor Web</h1>
+                    </div>
+                    <div class="paragrafo-inicio" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                        <p>Transformando ideias em soluções digitais. Vamos criar juntos?</p>
+                    </div>
+                    <button class="cta" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                        <a href="#contato">
+                            <span>Fale Comigo</span>
+                            <svg width="15px" height="10px" viewBox="0 0 13 10">
+                            <path d="M1,5 L11,5"></path>
+                            <polyline points="8 1 12 5 8 9"></polyline>
+                            </svg>
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </main>
+        <!--Fim Início-->
+
+        <!--Sobre-->
+        <section id="sobre" class="sobre">
+            <div class="container-sobre">
+                <!--Slide Sobre-->
+                <div class="headline-sobre" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="headline-scroll" id="headline-scroll">
+                        <span class="bold">SOBRE</span>
+                        <span class="divisor"></span>
+                        <span class="light">SOBRE</span>
+                        <span class="divisor"></span>
+                        <span class="bold">SOBRE</span>
+                        <span class="divisor"></span>
+                        <span class="light">SOBRE</span>
+                        <span class="divisor"></span>
+                        <span class="bold">SOBRE</span>
+                        <span class="divisor"></span>
+                        <span class="light">SOBRE</span>
+                        <span class="divisor"></span>
+                    </div>
+                </div>
+                <div class="conteudo-sobre">
+                    <div class="left-sobre" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="textos-sobre">
+                            <h1>Olá, me chamo Leonardo</h1>
+                            <p>um desenvolvedor web iniciante com paixão por criar experiências online funcionais e esteticamente agradáveis. Trabalho com HTML, CSS e JavaScript, sempre buscando aprender e me especializar. Meu objetivo é ajudar empresas e indivíduos a se destacarem no ambiente digital.</p>
+                        </div>
+                        <div class="redes-sociais">
+                            <a href="https://www.instagram.com/ribeirokzf?igsh=cnpsNXd6dzB2eHd6">INSTAGRAM<i class="bi bi-arrow-right"></i></a>
+                            <a href="https://github.com/ribeironvm">GITHUB<i class="bi bi-arrow-right"></i></a>
+                            <a href="https://www.linkedin.com/in/leonardo-ribeiro-1a6a15323">LINKEDIN<i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="right-sobre" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="imagem-sobre">
+                            <img src="./img/minha-foto-removebg-preview.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Fim Sobre-->
+
+        <!--Habilidades-->
+        <section id="skills" class="skills">
+            <div class="container-skills" data-aos="fade-up" data-aos-duration="1000">
+                <div class="headline-skills">
+                    <div class="text-headline-skills" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                        <h2>Minhas Habilidades</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga molestias libero consequuntur.</p>
+                    </div>
+                </div>
+
+                <div class="conteudo-skills">
+                    <div class="box-skills" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                        <div class="img-habilidades">
+                            <img src="./img/html5.png" alt="">
+                        </div>
+                        <h3>HTML5</h3>
+                    </div>
+                    <div class="box-skills" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                        <img src="./img/css3.png" alt="">
+                        <h3>CSS3</h3>
+                    </div>
+                    <div class="box-skills" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                        <img src="./img/javascript.png" alt="">
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="box-skills" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+                        <img src="./img/bootstrap.png" alt="">
+                        <h3>Bootstrap</h3>
+                    </div>
+                    <div class="box-skills" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+                        <img src="./img/react.png" alt="">
+                        <h3>React</h3>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--Fim Habilidades-->
+
+        <!--Serviços-->
+        <section id="servicos" class="servicos">
+            <div class="container-servicos">
+                <div class="headline-servicos" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="titulo-servicos">
+                        <h1>Serviços</h1>
+                    </div>
+                    <div class="descricao-servicos" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                    </div>
+                </div>
+                <div class="servicos-cards">
+                    <!--Serviço 1-->
+                    <div class="card-servicos-left" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+                        <div class="card-titulo">
+                            <h1> Criação de Sites</h1>
+                        </div>
+                        <div class="card-icon"><i class="bi bi-globe"></i></div>
+                    </div>
+                    <!--Serviço 2-->
+                    <div class="card-servicos" data-aos="fade-left" data-aos-delay="400" data-aos-duration="1000">
+                        <div class="card-titulo">
+                            <h1>Otimização de Performance</h1>
+                        </div>
+                        <div class="card-icon"><i class="bi bi-fast-forward"></i></div>
+                    </div>
+                    <!--Serviço 3-->
+                    <div class="card-servicos-left" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
+                        <div class="card-titulo">
+                            <h1>Criação de Portfólio Digital</h1>
+                        </div>
+                        <div class="card-icon"><i class="bi bi-layers"></i></div>
+                    </div>
+                    <!--Serviço 4-->
+                    <div class="card-servicos" data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000">
+                        <div class="card-titulo">
+                            <h1>Implementação de Funcionalidades Básicas</h1>
+                        </div>
+                        <div class="card-icon"><i class="bi bi-folder-plus"></i></div>
+                    </div>
+                    <!--Serviço 5-->
+                    <div class="card-servicos-left" data-aos="fade-right" data-aos-delay="700" data-aos-duration="1000">
+                        <div class="card-titulo">
+                            <h1>Manutenção e Atualização de Sites</h1>
+                        </div>
+                        <div class="card-icon"><i class="bi bi-tools"></i></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Fim Serviços-->
+
+        <!--Projetos-->
+        <section id="projetos" class="projetos">
+            <div class="container-portfolios" data-aos="fade-up" data-aos-duration="1000">
+                <div class="headline-projetos">
+                    <h1 class="titulo">Projetos</h1>
+                    <span class="descricao"></span>
+                </div>
+                <div class="container-case">
+                    <!--Case 1-->
+                    <div class="case1" data-aos="fade-right" data-aos-delay="200">
+                        <div class="imagens-case">
+                            <div class="slide">
+                                <i class="bi bi-chevron-left prev"></i>
+                                <img src="./img/imagem.png" alt="">
+                                <img src="./img/imagem.png" alt="">
+                                <img src="./img/imagem.png" alt="">
+                                <i class="bi bi-chevron-right next"></i>
+                            </div>
+                        </div>
+                        <div class="textos-case">
+                            <div class="conteudo-textos-case">
+                                <h1>Blog de viagens</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt similique quibusdam expedita magnam enim hic illum? Laudantium, deserunt?</p>
+<<<<<<< HEAD
+                                <a href="https://ribeirokzf.github.io/blog-viagens/#inicio"><span>Tipo do serviço</span></a>
+=======
+                                <a href="https://ribeironvm.github.io/blog-viagens/#inicio"><span>Saiba mais</span></a>
+>>>>>>> 3d449123d1489108323a52e45e7c47ef7d4c3cb9
+                            </div>
+                        </div>
+                    </div>
+                    <!--Case 2-->
+                    <div class="case2" data-aos="fade-left" data-aos-delay="300">
+                        <div class="textos-case">
+                            <div class="conteudo-textos-case">
+                                <h1>CLIENTE</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt similique quibusdam expedita magnam enim hic illum? Laudantium, deserunt?</p>
+<<<<<<< HEAD
+                                <a href=""><span>Tipo do serviço</span></a>
+
+=======
+                                <a href=""><span>Saiba mais</span></a>
+>>>>>>> 3d449123d1489108323a52e45e7c47ef7d4c3cb9
+                            </div>
+                        </div>
+                        <div class="imagens-case">
+                            <div class="slide">
+                                <i class="bi bi-chevron-left prev"></i>
+                                <img src="./img/imagem.png" alt="">
+                                <img src="./img/imagem.png" alt="">
+                                <img src="./img/imagem.png" alt="">
+                                <i class="bi bi-chevron-right next"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Case 3-->
+                    <div class="case3" data-aos="fade-right" data-aos-delay="400">
+                        <div class="imagens-case">
+                            <div class="slide">
+                                <i class="bi bi-chevron-left prev"></i>
+                                <img src="./img/imagem.png" alt="">
+                                <img src="./img/imagem.png" alt="">
+                                <img src="./img/imagem.png" alt="">
+                                <i class="bi bi-chevron-right next"></i>
+                            </div>
+                        </div>
+                        <div class="textos-case">
+                            <div class="conteudo-textos-case">
+                                <h1>CLIENTE</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt similique quibusdam expedita magnam enim hic illum? Laudantium, deserunt?</p>
+<<<<<<< HEAD
+                                <a href=""><span>Tipo do serviço</span></a>
+=======
+                            </div>
+                        </div>
+                    </div>
+                    <!--Case 4-->
+                    <div class="case4" data-aos="fade-left" data-aos-delay="500">
+                        <div class="textos-case">
+                            <div class="conteudo-textos-case">
+                                <h1>CLIENTE</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt similique quibusdam expedita magnam enim hic illum? Laudantium, deserunt?</p>
+<<<<<<< HEAD
+                                <a href=""><span>Tipo do serviço</span></a>
+=======
+                                <a href=""><span>Saiba mais</span></a>
+>>>>>>> 3d449123d1489108323a52e45e7c47ef7d4c3cb9
+                            </div>
+                        </div>
+                        <div class="imagens-case">
+                            <div class="slide">
+                                <i class="bi bi-chevron-left prev"></i>
+                                <img src="./img/imagem.png" alt="">
+                                <img src="./img/imagem.png" alt="">
+                                <img src="./img/imagem.png" alt="">
+                                <i class="bi bi-chevron-right next"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Fim Portfolio-->
+
+        <!--Contato-->
+        <section id="contato" class="contato">
+            <div class="container-contato" data-aos="fade-up" data-aos-duration="1000">
+                <div class="headline-contato" data-aos="fade-up" data-aos-delay="200">
+                    <div class="titulo-contato">
+                        <h1>Contato</h1>
+                    </div>
+                </div>
+                <div class="conteudo-contato" data-aos="fade-up" data-aos-delay="400">
+                    <div class="formulario-contato">
+                        <h2>Entre em contato</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora harum aliquid ullam nobis, enim nostrum libero eum? Recusandae placeat aut obcaecati consequuntur!</p>
+                        <form class="form">
+                            <input type="text" placeholder="Digite seu nome...">
+                            <input type="phone" placeholder="(+DD) 22 22222-2222">
+                            <input type="email" placeholder="Digite seu email...">
+                            <textarea name="mensagem" id="mensagem" placeholder="Escreva o que você deseja aqui..."></textarea>
+                            <button class="btn">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="logo-contato" data-aos="fade-up" data-aos-delay="600">
+                        <img src="./img/logo-header-black.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Fim Contato-->
+
+        <!--Footer-->
+        <footer class="footer" id="footer">
+            <div class="container-footer">
+                <div class="footer-column logo-column">
+                    <img src="./img/logo-header.png" alt="">
+                </div>
+                <div class="footer-column menu-column">
+                    <nav class="footer-nav">
+                        <a href="#inicio">Início</a>
+                        <a href="#sobre">Sobre</a>
+                        <a href="#servicos">Serviços</a>
+                        <a href="#portfolio">Portfolio</a>
+                        <a href="#contato">Contato</a>
+                    </nav>
+                </div>
+                <div class="footer-column social-column">
+                    <ul class="social-links">
+                        <li><a href="https://www.instagram.com/ribeirokzf?igsh=cnpsNXd6dzB2eHd6"><i class="bi bi-instagram"></i> Instagram</a></li>
+                        <li><a href="https://github.com/ribeironvm"><i class="bi bi-github"></i> GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/leonardo-ribeiro-1a6a15323"><i class="bi bi-linkedin"></i> LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-column credits-column">
+                <p>&copy; 2024 Todos os direitos reservados.</p>
+                <p>Desenvolvido por Ribeirokzf│Dev.</p>
+            </div>
+        </footer>
+        <!--Fim Footer-->
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Inicialização do AOS -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!--JavaScript-->
+    <script src="./js/header.js"></script>
+    <script src="./js/actionButton.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/slideSobre.js"></script>
+    <script src="./js/slidePortfolio.js"></script>
+
+</body>
+
+</html>
